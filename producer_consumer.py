@@ -37,7 +37,7 @@ class Consumer(threading.Thread):
         self.nexttime = 0
 
     def run(self):
-        while time.clock() < 10:
+        while time.clock() < 30:
             if self.nexttime < time.clock() and not self.q.empty():
                 f = self.q.get()
                 print("Removing {}".format(f))
