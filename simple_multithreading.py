@@ -2,6 +2,7 @@
 # coding=utf-8
 """
 Simple Thread program
+https://www.youtube.com/watch?v=i1SW4q9yUEs
 """
 
 __author__ = "Michael Krisper"
